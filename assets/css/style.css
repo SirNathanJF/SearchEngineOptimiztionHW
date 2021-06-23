@@ -1,29 +1,30 @@
+/*Universal Selector to set overall page box*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Sets background color of body*/
 body {
     background-color: #d9dcd6;
 }
-
+/*Sets box size, font, background color, and text color of header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*Sets h1 block layout and font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*Sets the color of the seo class*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Sets size, orientation, and font of the navigation section*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Removes bullet points from navigation bar links*/
 .header nav ul {
     list-style-type: none;
 }
-
+/*Sets orientation of naviation bar*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Removes the underline from the navigation bar links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Sets font size for text in all <p> tags*/
 p {
     font-size: 16px;
 }
-
+/*Sets the size and image itself in the center-background class*/
 .center-background {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*Sets the sizing of the left hand oriented articles*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Sets the imaage position of the two left-float class images*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*Sets the image position of the right-float class image*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*Sets the size, text, and color schemes of the search-engine-optimization article*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,7 +84,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Sets the size, text, and color schemes of the online-reputation-management article*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -92,7 +93,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Sets the size, text, and color schemes of the social-media-marketing article*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -101,34 +102,34 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Sets the image size for the search-engine-optimization article*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/*Sets the image size for the online-reputation-management article*/
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/*Sets the image size for the social-media-marketing article*/
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*Sets h2 text size and margin of the search-engine-optimization article*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Sets h2 text size and margin of the online-reputation-management article*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Sets h2 text size and margin of the social-media-marketing article*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Sets the font and background color of the benefits class to the right hand side of the screen*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -139,62 +140,62 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Sets the area and color of the benefit-lead article*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Sets the area and color of the benefit-brand article*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Sets the area and color of the benefit-cost article*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Sets the size and margin for the h3 of the benefit-lead article*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Sets the size and margin for the h3 of the benefit-brand article*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Sets the size and margin for the h3 of the benefit-cost article*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Sets the oreintation and size of the image for the benefit-lead article*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Sets the oreintation and size of the image for the benefit-brand article*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Sets the oreintation and size of the image for the benefit-cost article*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Sets the sizing, font, and orientation of the font of the footer*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*Sets the text size of the footer h2*/
 .footer h2 {
     font-size: 20px;
 }
