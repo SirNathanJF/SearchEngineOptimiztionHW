@@ -51,7 +51,7 @@ p {
     font-size: 16px;
 }
 /*Sets the size and image itself in the center-background class*/
-.center-background {
+.center-background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
